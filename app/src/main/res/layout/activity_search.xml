@@ -8,13 +8,13 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:background="@drawable/search_bar_drawable"
+        android:layout_margin="10dp"
+        android:drawableStart="@mipmap/ic_search_bar"
+        android:drawableLeft="@mipmap/ic_search_bar"
         android:text="Search"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="232dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
